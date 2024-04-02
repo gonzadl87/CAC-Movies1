@@ -7,10 +7,45 @@
     <link rel="icon" href="../assets/img/film.ico">
 </head>
 <body>
-    <header>CAC-Movies</header>
+    <header>
+        <h1>CAC-Movies</h1>
+    </header>
     <main>
         <form action="" method="post">
             <!-- elementos de mi formulario 11-->
+            <div>
+                <label for="nombreUsuario">Nombre</label>
+                <input type="text" id="nombreUsuario" name="nombreUsuarioIngresado">
+            </div>
+            <div>
+                <label for="apellidoUsuario">Apellido</label>
+                <input type="text" id="apellidoUsuario" name="apellidoUsuarioIngresado">
+            </div>
+            <div>
+                <label for="emailUsuario">Correo Electrónico</label>
+                <input type="email" id="emailUsuario" name="emailUsuarioIngresado">
+            </div>
+            <div>
+                <label for="passUsuario">Contraseña</label>
+                <input type="password" id="passUsuario" name="passUsuarioIngresado">
+            </div>
+            <div>
+                <label for="NacUsuario">Fecha de Nacimiento</label>
+                <input type="date" id="NacUsuario" name="NacUsuarioIngresado">
+            </div>
+            <div>
+                <label for="PaisUsuario">País</label>
+                <select name="PaisUsuarioIngresado" id="PaisUsuario">
+                    <option selected value="--Seleccionar País--"></option>
+                    <option value="Argentina"></option>
+                    <option value="Colombia"></option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="chkTerminos" name="chkTerminosIngresado">
+                <label for="chkTerminos">Términos y Condiciones</label>
+            </div>
+            <input type="submit" value="Registrar">
         </form>
     </main>
 </body>
