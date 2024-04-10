@@ -3,6 +3,33 @@
     padding: 0;
 }
 
+/*Selector de etiquetas*/
 h3{
     color:blueviolet;
+}
+
+/*Selector de clase*/
+.alert{
+    color:yellow;
+}
+
+/*selector de ID*/
+#tendencias{
+    background-color: black;
+}
+
+h2{
+    color:blue;
+}
+
+.alert{
+    color:blueviolet
+}
+
+.alerta{
+    color:blueviolet !important
+}
+
+#titulo-principal-alerta{
+    color:brown;
 }
